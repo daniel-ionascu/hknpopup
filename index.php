@@ -5,7 +5,7 @@
  * This module is developed for use with PrestaShop. Redistribution or modification
  * is permitted without restriction. No warranties or support are provided.
  *
- * @author    Daniel Ionaşcu <danielhekn@gmail.com>
+ * @author    Daniel Ionaşcu <danielionascudev@gmail.com>
  * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)>
  * 
  */

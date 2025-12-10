@@ -1,35 +1,62 @@
 /**
-* 2007-2023 PrestaShop
-*
-* NOTICE OF LICENSE
-*
-* This source file is subject to the Academic Free License (AFL 3.0)
-* that is bundled with this package in the file LICENSE.txt.
-* It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/afl-3.0.php
-* If you did not receive a copy of the license and are unable to
-* obtain it through the world-wide-web, please send an email
-* to license@prestashop.com so we can send you a copy immediately.
-*
-* DISCLAIMER
-*
-* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
-* versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
-*
-*  @author    PrestaShop SA <contact@prestashop.com>
-*  @copyright 2007-2023 PrestaShop SA
-*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-*  International Registered Trademark & Property of PrestaShop SA
-*
-* Don't forget to prefix your containers with your own identifier
-* to avoid any conflicts with others containers.
-*/
+ * HKN Popup Manager - Back Office CSS
+ * Version 3.0.0
+ *
+ * @author    Daniel Ionascu <danielionascudev@gmail.com>
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
 
-/*.adminpopupconfiguration .contentPopup{*/
-/*    min-height:150px !important;*/
-/*}*/
-
-#table-thpopup_templates .text-right{
+/* Admin table styling */
+#table-hkn_popup .text-right {
     width: 200px !important;
+}
+
+/* Form field improvements */
+.hkn-popup-form .form-group {
+    margin-bottom: 15px;
+}
+
+/* Image preview in form */
+.hkn-popup-image-preview {
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Badge styling for status */
+.hkn-popup-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.hkn-popup-badge-active {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.hkn-popup-badge-inactive {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.hkn-popup-badge-scheduled {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+/* Tab content spacing */
+.tab-content > .tab-pane {
+    padding-top: 15px;
+}
+
+/* Help text styling */
+.hkn-help-text {
+    color: #737373;
+    font-size: 12px;
+    margin-top: 5px;
 }
